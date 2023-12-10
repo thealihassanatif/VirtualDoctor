@@ -31,8 +31,8 @@ def get_user_input():
     symptoms['Cough'] = input("Do you have Cough? (Yes/No): ").capitalize()
     symptoms['Fatigue'] = input("Do you have Fatigue? (Yes/No): ").capitalize()
     symptoms['Difficulty Breathing'] = input("Do you have Difficulty Breathing? (Yes/No): ").capitalize()
-    symptoms['Blood Pressure'] = input("Enter your Blood Pressure: ")
-    age = int(input("Enter your Age: "))
+    symptoms['Blood Pressure'] = input("Enter your Blood Pressure (Low, Normal, High): ")
+    age = int(input("Enter your Age (19+): "))
     gender = input("Enter your Gender (Male/Female): ").capitalize()
 
     return symptoms, age, gender
